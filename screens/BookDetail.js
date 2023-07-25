@@ -136,22 +136,22 @@ const BookDetail = ({ route, navigation }) => {
                     <View style={{ flex: 1, alignItems: 'center' }}>
                         <Text style={{ ...FONTS.h3, color: COLORS.white }}>{book.rating}</Text>
                         <AntDesign name="star" size={13} color="red" />
-                        <Text style={{ ...FONTS.body4, color: COLORS.white }}>Calificaciones</Text>
+                        <Text style={{ ...FONTS.body4, color: COLORS.white }}>Ratings</Text>
                     </View>
 
                     <LineDivider />
 
-                    {/* Pages */}
+                    {/* Pages
                     <View style={{ flex: 1, paddingHorizontal: SIZES.radius, alignItems: 'center' }}>
                         <Text style={{ ...FONTS.h3, color: COLORS.white }}>{book.episodeNo}</Text>
                         <Text style={{ ...FONTS.body4, color: COLORS.white }}>Número de episodios</Text>
                     </View>
-
+ */}
                     <LineDivider />
 
                     {/* Language */}
                     <View style={{ flex: 1, alignItems: 'center' }}>
-                        <Text style={{ ...FONTS.h3, color: COLORS.white }}>Español</Text>
+                        <Text style={{ ...FONTS.h3, color: COLORS.white }}>Hindi</Text>
                         <Text style={{ ...FONTS.body4, color: COLORS.white }}>Language</Text>
                     </View>
                 </View>
@@ -201,7 +201,7 @@ const BookDetail = ({ route, navigation }) => {
                         { useNativeDriver: false }
                     )}
                 >
-                    <Text style={{ ...FONTS.h2, color: COLORS.white, marginBottom: SIZES.padding }}>Descripción</Text>
+                    <Text style={{ ...FONTS.h2, color: COLORS.white, marginBottom: SIZES.padding }}>Description</Text>
                     <Text style={{ ...FONTS.body2, color: COLORS.lightGray }}>{book.description}</Text>
                 </ScrollView>
             </View>
@@ -225,12 +225,12 @@ const BookDetail = ({ route, navigation }) => {
                         alignItems: 'center',
                         justifyContent: 'center'
                     }}
-                    onPress={() => navigation.navigate("Buttons",{
+                    onPress={() => navigation.navigate("Pdfs",{
 
                     bookaa: book
                 })}
                 >
-                    <Text style={{ ...FONTS.h3, color: COLORS.white }}>Leer</Text>
+                    <Text style={{ ...FONTS.h3, color: COLORS.white }}>Read</Text>
                 </TouchableOpacity>
             </View>
         )

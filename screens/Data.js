@@ -1,68 +1,68 @@
 import { images } from '../constants';
 
 export const booksData = {
-    onepiece: {
+    innerengineering: {
         id: 1,
-        bookName: "One \n Piece",
-        bookCover: images.onepiece,
+        bookName: "Inner \n Engineering",
+        bookCover: images.innerengineering,
         rating: "4.5/5",
         language: "Español",
         episodeNo: 1155,
         genre: ["Romance", "Adventure", "Drama"],
         readed: "120,785",
-        description: "One Piece es una serie de manga japonesa escrita e ilustrada por Eiichiro Oda. Ha sido serializado en la revista de manga shōnen Weekly Shōnen Jump de Shueisha desde julio de 1997, con sus capítulos individuales compilados en 105 volúmenes de tankōbon a partir de marzo de 2023.",
+        description: "इनर इंजीनियरिंग: ए योगीज़ गाइड टू जॉय एक भारतीय योगी और रहस्यवादी जग्गी वासुदेव द्वारा लिखित 2016 की पुस्तक है। पुस्तक को नवंबर 2016 के लिए आध्यात्मिकता और स्वयं सहायता श्रेणी में द न्यूयॉर्क टाइम्स बेस्ट सेलर में शामिल किया गया था।",
         backgroundColor: "rgba(240,240,232,0.9)",
         navTintColor: "#000",
-        web:"One+Piece+"
+        web:"InnerEngineering"
     },
-    demonslayer: {
+    atomichabits: {
         id: 2,
-        bookName: "Demon \n Slayer",
-        bookCover: images.demonslayer,
+        bookName: "Atomic \n Habits",
+        bookCover: images.atomichabits,
         rating: "4.3/5",
         episodeNo: 289,
         genre: [
             "Adventure", "Drama"
         ],
         readed: "43,000",
-        description: "Demon Slayer: Kimetsu no Yaiba es una serie de manga japonesa escrita e ilustrada por Koyoharu Gotouge. Fue serializado en la revista de manga shōnen de Shueisha Weekly Shōnen Jump desde febrero de 2016 hasta mayo de 2020, con sus capítulos recopilados en 23 volúmenes de tankōbon.",  
-        web:"DemonsLayer+"
+        description: "साक्ष्य-आधारित रणनीतियों से भरपूर, एटॉमिक हैबिट्स आपको छोटे-छोटे बदलाव करना सिखाएगी जो आपकी आदतों को बदल देंगे और आश्चर्यजनक परिणाम देंगे।",  
+        web:"atomichabits"
     },
-    komisan: {
+    thinkandgrowrich: {
         id: 3,
-        bookName: "Komi-san \n wa",
-        bookCover: images.komisan,
+        bookName: "Think and \n Grow Rich",
+        bookCover: images.thinkandgrowrich,
         rating: "3.5/5",
         episodeNo: 382,
         genre: [
             "Drama", "Adventure", "Romance"
         ],
         readed: "83,876",
-        description: "Komi Can't Communicate es una serie de manga japonesa escrita e ilustrada por Tomohito Oda. Ha sido serializado en la revista de manga shōnen Weekly Shōnen Sunday de Shogakukan desde mayo de 2016, con sus capítulos recopilados en 29 volúmenes de tankōbon a partir de abril de 2023. La serie tiene licencia en Norteamérica por Viz Media",
+        description: "थिंक एंड ग्रो रिच नेपोलियन हिल द्वारा लिखित पुस्तक है जिसे 1937 में जारी किया गया था और इसे व्यक्तिगत विकास और आत्म-सुधार पुस्तक के रूप में प्रचारित किया गया था। उन्होंने बिजनेस मैग्नेट और बाद में परोपकारी एंड्रयू कार्नेगी के एक सुझाव से प्रेरित होने का दावा किया। हालाँकि इस बात का कोई सबूत नहीं है कि दोनों कभी मिले थे",
         backgroundColor: "rgba(119,77,143,0.9)",
-        web:"Komisan+"
+        web:"atomichabits"
     },
-    dragonballmultiverse: {
+    richdad: {
         id: 4,
-        bookName: "Dragon ball \n Multiverse",
-        bookCover: images.dragonballmultiverse,
+        bookName: "Rich Dad \n Poor Dad",
+        bookCover: images.richdad,
         rating: "3.4/5",
         language: "Español",
         episodeNo: 75,
         readed: "13k",
-        description: "Dragon Ball Multiverse (o DBM para abreviar) es una secuela hecha por fanáticos del Dragon Ball Manga y es un doujinshi en línea gratuito (cómic hecho por fanáticos en japonés).",  
-        web:"DragonballMultiverse+"
+        description: "रिच डैड पुअर डैड 1997 में रॉबर्ट टी. कियोसाकी और शेरोन लेचटर द्वारा लिखित पुस्तक है। यह वित्तीय साक्षरता, वित्तीय स्वतंत्रता और परिसंपत्तियों में निवेश, रियल एस्टेट निवेश, व्यवसाय शुरू करने और स्वामित्व के साथ-साथ किसी की वित्तीय बुद्धिमत्ता को बढ़ाकर धन निर्माण के महत्व की वकालत करता है।",  
+        web:"RichDadPoorDad"
     },
-    chainsawman: {
+    sevenhabits: {
         id: 5,
-        bookName: "Chain Saw\n Man",
-        bookCover: images.chainsawman,
+        bookName: "The 7 Habits \n of Highly Effective People",
+        bookCover: images.sevenhabits,
         rating: "3.2/5",
         language: "Español",
         episodeNo: 137,
         readed: "275k",
-        description: "Chainsaw Man sigue la historia de Denji, un joven empobrecido que hace un contrato que fusiona su cuerpo con el de un demonio parecido a un perro llamado Pochita.",
-        web:"chainsaw+"
+        description: "अत्यधिक प्रभावी लोगों की 7 आदतें सिद्ध व्यक्तिगत प्रभावशीलता ऑपरेटिंग सिस्टम है। प्रतिभागियों में बढ़ी हुई परिपक्वता, अधिक उत्पादकता और स्वयं को प्रबंधित करने की क्षमता विकसित होती है। वे लेजर जैसे फोकस और सावधानीपूर्वक योजना के साथ महत्वपूर्ण प्राथमिकताओं को क्रियान्वित करने की क्षमता लेकर आएंगे।",
+        web:"7habits"
     },
     jibakushounen: {
         id: 6,

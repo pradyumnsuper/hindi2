@@ -27,7 +27,10 @@ const Home = ({ navigation }) => {
     const [userstatepro, setUserstatepro] = useState(false);
     const tw = useTailwind();
 
-    const { onepiece, demonslayer, komisan, dragonballmultiverse,
+    const { 
+        innerengineering,atomichabits,thinkandgrowrich,richdad,sevenhabits,
+        
+        onepiece, demonslayer, komisan, dragonballmultiverse,
          chainsawman,jibakushounen,bluelock,bananafish,
          recordofragnarok,goodnightpunpun,talesofdemonsandgods,
          jojosbizarreadventure, spyxfamily,Berserk, 
@@ -51,31 +54,28 @@ const Home = ({ navigation }) => {
 
     
    
-
+   
     const myBooksData = [
         {
-            ...onepiece,
+            ...atomichabits,
         },
         
         {
-            ...demonslayer,           
-            completion: "23%",
-            lastRead: "10d 5h",
+            ...thinkandgrowrich,           
+           
         },
         {
-            ...komisan,
+            ...richdad,
 
         },
         {
-            ...chainsawman,
+            ...sevenhabits,
 
         },
         {
-            ...dragonballmultiverse,
+            ...innerengineering,
         },
-        {   
-            ...jibakushounen,
-        }
+        
     ]
 
     const myBooksData2 = [
@@ -212,7 +212,7 @@ const Home = ({ navigation }) => {
             id: 1,
             categoryName: "Best Seller",
             books: [
-                onepiece, demonslayer, komisan
+                innerengineering
             ]
         },
        
@@ -495,13 +495,13 @@ const Home = ({ navigation }) => {
              
             </View>
 
-            {/* Body Section */}
+            
             <ScrollView style={{ marginTop: SIZES.radius }}>
-                {/* Books Section */}
+                
                 <View>
-                    {renderMyBookSection(myBooks, "Lo último gratis")}
+                    {renderMyBookSection(myBooks, "Read Now")}
                 </View>
-
+{/* Books Section 
                 <View>
                     {renderMyBookSection(myBooks2,"Premium - Aventura")}
                 </View>
@@ -521,7 +521,7 @@ const Home = ({ navigation }) => {
                     {renderMyBookSection(myBooks7,"Premium - Love")}
                 </View>
                 
-                
+            */}
 
                 {/* Categories Section */}
                 <View style={{ marginTop: SIZES.padding }}>

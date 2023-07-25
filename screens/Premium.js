@@ -90,7 +90,7 @@ const Premium = () => {
 
                 <View style={tw("items-center pt-2")}>
                     <Text style={tw("text-center text-3xl font-semibold text-black")}>
-                    Dsbloquea Todo
+                    Unlock Everything
                     </Text>
 
                 </View>

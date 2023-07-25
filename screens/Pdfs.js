@@ -41,18 +41,16 @@ expo start --dev-client
 export default function Pdfs({ route, navigation }) {
  
   const [bookweb, setBookweb] = React.useState("");
-  const [Chapterindexo, setChapterindexo] = React.useState("");
+  
   const [pdfSource, setPdfSource] = useState(null); // Initialize pdfSource with null
   const pdfRef = useRef();
-
+  
 React.useEffect(() => {
-  let { book,chapterIndex } = route.params;
+  let { bookaa} = route.params;
 
-  console.log(chapterIndex)
-  console.log(chapterIndex)
-  setChapterindexo(chapterIndex)
-  console.log(book.web)
-  setBookweb(book.web)
+
+  console.log(bookaa.web)
+  setBookweb(bookaa.web)
   
 }, [])
 
@@ -61,7 +59,7 @@ React.useEffect(() => {
   console.log(bookweb)
   useEffect(() => {
     if(bookweb) {
-      const onlineSource = { uri: `https://mangaspanish.s3.ap-south-1.amazonaws.com/${bookweb}(${Chapterindexo}).pdf`, cache: true };
+      const onlineSource = { uri: `https://hindibooks.s3.ap-south-1.amazonaws.com/${bookweb}.pdf`, cache: true };
       setPdfSource(onlineSource);
      }
   }, [bookweb]);

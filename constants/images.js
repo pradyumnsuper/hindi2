@@ -38,14 +38,23 @@ export const drstone = require("../assets/images/Row6/drstone.jpg");
 export const kaguyasama = require("../assets/images/Row6/kaguyasama.jpg");
 export const lavidadespues = require("../assets/images/Row6/LaVidaDespuésdelaMuerte.jpg");
 export const Tsukigamichibiku = require("../assets/images/Row6/Tsukigamichibiku.jpg");
-
-
+export const sevenhabits = require("../assets/images/Row1/sevenhabits.png");
+export const richdad = require("../assets/images/Row1/richdad.png");
+export const thinkandgrowrich = require("../assets/images/Row1/thinkandgrowrich.png");
+export const atomichabits = require("../assets/images/Row1/atomichabits.png");
+export const innerengineering = require("../assets/images/Row1/innerengineering.png");
 
 
 
 
 
 export default {
+
+    innerengineering,atomichabits,thinkandgrowrich,richdad,sevenhabits,
+
+
+
+
     bleach,Dandadan,drstone,kaguyasama,lavidadespues,Tsukigamichibiku,    
     otherWordsForHome,theMetropolist,theTinyDragon,underland, onepiece,demonslayer,dragonballmultiverse,komisan,    chainsawman,    jibakushounen,    bluelock,
     bananafish,

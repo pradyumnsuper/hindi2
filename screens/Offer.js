@@ -151,7 +151,7 @@ const Offer = () => {
                                         styles.buttonText,
                                     ]}
                                 >   
-                                Desbloquee todas nuestras funciones para tener el control total de su experiencia</Text>
+                                Unlock all our features to be in full control of your experience</Text>
                                 <View style={tw("p-1")}></View>
                                 <TouchableOpacity
                                     style={[tw("rounded-2xl w-36 h-14  bg-white"),
@@ -160,7 +160,7 @@ const Offer = () => {
 
                                 >
                                     <Text style={tw("text-center text-black text-lg")}>
-                                        Obtener {"\n"} ahora 
+                                    Get {"\n"} now
                                     </Text>
                                 </TouchableOpacity>
                                

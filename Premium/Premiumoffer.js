@@ -98,7 +98,7 @@ const Premiumoffer = () => {
 
                     </View>
                     <Text style={tw("text-center font-semibold")}>
-                            Esta es una suscripción recurrente que puede cancelar {"\n"}en cualquier momento </Text>
+                    This is a recurring subscription that you can cancel {"\n"}at any time </Text>
                     <View style={tw("p-3 text-center")}></View>
 
 

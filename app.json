@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Hola Mangaa",
-    "slug": "holamanga",
+    "name": "kahani",
+    "slug": "hindisum",
     "version": "1.0.0",
     "owner": "xyzstudio",
     "orientation": "portrait",
@@ -23,14 +23,14 @@
         "foregroundImage": "./assets/logoo.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.xyzstudio.holamanga"
+      "package": "com.xyzstudio.hindisum"
     },
     "web": {
       "favicon": "./assets/logoo.png"
     },
     "extra": {
       "eas": {
-        "projectId": "d2619360-cce2-4870-beef-42e0189128b4"
+        "projectId": "92c3defc-36db-455e-a3b5-4e81f5a2f660"
       }
     }
   }
